@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "outDir": "./build",
+    "target": "ES2017",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": false,
+    "noEmitOnError": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "src/@types",
+      "node_modules/@types"
+    ]
+  }
+}
